@@ -6,7 +6,7 @@ import remarkGithubAdmonitionsToDirectives from 'remark-github-admonitions-to-di
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Austen Stone',
+  title: 'Vicki Wu',
   tagline: 'Software Engineer who writes code and solves business problems',
   favicon: 'img/favicon.ico',
 
@@ -16,16 +16,16 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://austen.info',
+  url: 'https://vickiwu.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/v-blog/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'austenstone', // Usually your GitHub org/user name.
-  projectName: 'portfolio', // Usually your repo name.
-  deploymentBranch: 'main',
+  organizationName: 'vickiwu', // Usually your GitHub org/user name.
+  projectName: 'v-blog', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
