@@ -57,3 +57,23 @@ electron:
   label: 即时通讯
   permalink: /instant-messaging
   description: Instant messaging and real-time communication
+
+开发:
+  label: 开发
+  permalink: /development
+  description: Software development and programming
+
+速查表:
+  label: 速查表
+  permalink: /cheat-sheet
+  description: Quick reference guides and cheat sheets
+
+随笔:
+  label: 随笔
+  permalink: /essays
+  description: Personal essays and thoughts
+
+开始:
+  label: 开始
+  permalink: /getting-started
+  description: Getting started guides and introductions
