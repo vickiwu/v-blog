@@ -8,7 +8,7 @@ import remarkGithubAdmonitionsToDirectives from 'remark-github-admonitions-to-di
 const config: Config = {
   title: 'Vicki Wu',
   tagline: 'Software Engineer who writes code and solves business problems',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/avatar.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -29,6 +29,12 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  // Internationalization
+  i18n: {
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
+  },
   markdown: {
     format: 'detect',
     mermaid: true,
@@ -50,26 +56,19 @@ const config: Config = {
   },
   themes: ['@docusaurus/theme-mermaid'],
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
-
   presets: [
     [
       'classic',
       {
-        googleAnalytics: {
-          trackingID: 'G-P3MLQ4GJP5',
-          anonymizeIP: true,
-        },
-        gtag: {
-          trackingID: 'G-P3MLQ4GJP5',
-          anonymizeIP: true,
-        },
+        // Google Analytics 已移除 - 如需使用，请添加你自己的跟踪 ID
+        // googleAnalytics: {
+        //   trackingID: 'YOUR-TRACKING-ID',
+        //   anonymizeIP: true,
+        // },
+        // gtag: {
+        //   trackingID: 'G-P3MLQ4GJP5',
+        //   anonymizeIP: true,
+        // },
         docs: {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
@@ -81,16 +80,16 @@ const config: Config = {
         blog: {
           showReadingTime: true,
           showLastUpdateTime: true,
-          blogTitle: 'Blog',
+          blogTitle: '博客',
           feedOptions: {
             type: 'all',
             xslt: true,
-            copyright: `Copyright © ${new Date().getFullYear()} Austen Stone`
+            copyright: `Copyright © ${new Date().getFullYear()} Vicki Wu`
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/austenstone/portfolio/tree/main/',
+            'https://github.com/vickiwu/v-blog/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -109,33 +108,33 @@ const config: Config = {
     navbar: {
       // title: 'Austen Stone',
       logo: {
-        src: '/img/ChatGPT Image Jun 28, 2025, 04_41_42 PM.png',
+        src: '/img/avatar.png',
         style: {
           'border-radius': '50%',
         }
       },
       items: [
-        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/blog', label: '博客', position: 'left' },
         {
           type: 'docSidebar',
           sidebarId: 'guides',
           position: 'left',
-          label: 'Actions',
+          label: '指南',
         },
         {
           type: 'docSidebar',
           sidebarId: 'projects',
           position: 'left',
-          label: 'Projects',
+          label: '项目',
         },
         {
-          href: 'https://github.com/austenstone',
-          className: 'header-github-link',
+          href: 'https://github.com/vickiwu',
+          label: 'GitHub',
           position: 'right',
         },
         {
-          href: 'https://www.linkedin.com/in/austenstone/',
-          className: 'header-linkedin-link',
+          href: 'https://www.linkedin.com/in/vickiwu/',
+          label: 'LinkedIn',
           position: 'right',
         },
       ],
@@ -144,19 +143,19 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Connect',
+          title: '联系方式',
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/austenstone',
+              href: 'https://github.com/vickiwu',
             },
             {
               label: 'LinkedIn',
-              href: 'https://www.linkedin.com/in/austenstone/',
+              href: 'https://www.linkedin.com/in/vickiwu/',
             },
             {
-              label: 'Email',
-              href: 'mailto:hi@austen.info',
+              label: '邮箱',
+              href: 'mailto:vicki0wu@gmail.com',
             },
           ],
         },
@@ -166,24 +165,24 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+          title: '更多',
           items: [
             {
-              label: 'Blog',
+              label: '博客',
               to: '/blog',
             },
             {
-              label: 'Resume',
+              label: '简历',
               to: '/resume',
             },
             {
-              label: 'Source Code',
-              href: 'https://github.com/austenstone/portfolio/',
+              label: '源代码',
+              href: 'https://github.com/vickiwu/v-blog/',
             },
           ],
         },
       ],
-      copyright: `2024-${new Date().getFullYear()} © Austen Stone`,
+      copyright: `2024-${new Date().getFullYear()} © Vicki Wu`,
     },
     prism: {
       theme: prismThemes.vsLight,

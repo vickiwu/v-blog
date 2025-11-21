@@ -11,11 +11,11 @@ function MinimalHomepage() {
     <div className={styles.minimalContainer}>
       <div className={styles.content}>
         <Heading as="h1" className={styles.title}>
-          <span className={styles.tilde}>~</span>austenstone
+          <span className={styles.tilde}>~</span>vickiwu
         </Heading>
         
         <p>
-          hi (at) austen (dot) info
+          vicki0wu (at) gmail (dot) com
         </p>
 
         <div className={styles.section}>
@@ -24,19 +24,19 @@ function MinimalHomepage() {
             <Link href="/blog" className={styles.link}>
               blog<span className={styles.linkDir}>/</span>
             </Link>
-            <Link href="/docs/guides/Intro%20to%20Concepts" className={styles.link}>
+            <Link href="/docs/guides" className={styles.link}>
               guides<span className={styles.linkDir}>/</span>
             </Link>
-            <Link href="https://github.com/austenstone" className={styles.link}>
+            <Link href="https://github.com/vickiwu" className={styles.link}>
               github
             </Link>
-            <Link href="https://www.linkedin.com/in/austenstone/" className={styles.link}>
+            <Link href="https://www.linkedin.com/in/vickiwu/" className={styles.link}>
               linkedin
             </Link>
             <Link href="/resume" className={styles.link}>
               resume
             </Link>
-            <Link href="/docs/projects/github-actions" className={styles.link}>
+            <Link href="/docs/projects" className={styles.link}>
               projects<span className={styles.linkDir}>/</span>
             </Link>
           </div>

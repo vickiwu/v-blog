@@ -1,11 +1,7 @@
-austen:
-  name: Austen Stone
-  title: Senior Solutions Engineer @ GitHub
-  url: https://github.com/austenstone
-  image_url: http://github.com/austenstone.png
-  email: hi@austen.info
+vicki:
+  name: Vicki Wu
+  title: Software Engineer
+  url: https://github.com/vickiwu
+  image_url: https://github.com/vickiwu.png
+  email: vicki0wu@gmail.com
   page: true
-  socials:
-    github: austenstone
-    linkedin: austenstone
-    newsletter: https://austen.info/blog

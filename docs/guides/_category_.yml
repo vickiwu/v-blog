@@ -1,6 +1,7 @@
-
-label: GitHub Actions
+label: GitHub Actions 指南
+position: 1
 link:
   type: generated-index
-  description: This document is a high-level overview of GitHub Actions. It is not intended to be a comprehensive guide to the platform, but rather a starting point for understanding the basics.
-position: 1
+  description: GitHub Actions 核心概念和最佳实践指南
+collapsed: false
+className: guides-category
