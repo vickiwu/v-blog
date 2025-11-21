@@ -37,3 +37,23 @@ dev:
   label: Development
   permalink: /dev
   description: Development related posts
+
+im:
+  label: IM
+  permalink: /im
+  description: Instant Messaging systems and implementations
+
+vue:
+  label: Vue
+  permalink: /vue
+  description: Vue.js framework and related technologies
+
+electron:
+  label: Electron
+  permalink: /electron
+  description: Electron desktop application development
+
+即时通讯:
+  label: 即时通讯
+  permalink: /instant-messaging
+  description: Instant messaging and real-time communication
